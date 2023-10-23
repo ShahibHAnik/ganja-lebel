@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h2>smoke zone form</h2>
+    <form>
+        <label for="Your name">Your name
+            <input type="text" name="your name" id="text" placeholder="your name">
+        </label>
+        <label for="your email">your email
+            <input type="email" name="your email" id="email" placeholder="your email">
+        </label>
+        <label for="your phone">Your phone Number
+            <input type="number" name="your number" id="number" placeholder="your phone number">
+        </label>
+        <fieldset>
+            <legend>pick one of weed item</legend>
+                <label for="sativa">
+                    <input type="radio" name="weed" id="sativa">sativa
+                </label>
+                <label for="indica">
+                    <input type="radio" name="weed" id="indica">indica
+                </label>
+                
+                <label for="hybrid">
+                    <input type="radio" name="weed" id="hybrid">hybrid
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>select brand mames</legend>
+            <label for="stizzy">
+                <input type="checkbox" name="brand" id="stizzy">Stizzy
+            </label>
+            <label for="dabwoods">
+                <input type="checkbox" name="brand" id="dabwoods">dabwoods
+            </label>
+            <label for="california honey">
+                <input type="checkbox" name="brand" id="california honey">california honey
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Please provide the order instructions</legend>
+            <textarea name="give the order instruction" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <label for="reset"></label>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
